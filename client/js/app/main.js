@@ -2,7 +2,6 @@ define(["jquery"], function ($) {
 
     // if user is running mozilla then use it's built-in WebSocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
-
     // Bye bye if you don't have WebSockets natively
     if (!window.WebSocket) {
         content.html($('<p>', { text: 'Sorry, but your browser doesn\'t support WebSockets.'} ));
@@ -10,11 +9,43 @@ define(["jquery"], function ($) {
     }
 
     // connect to the server
-    var connection = new WebSocket('ws://94.76.249.84:1337');
+    var content = $('#second-screen'),
+        connection = new WebSocket('ws://94.76.249.84:1337'),
+        data;
 
-    connection.onopen = function (e) {
-        console.log(e);
+    // subscribe to websocket events
+    connection.onopen = function () {
+        console.log('Connection opened.');
     };
 
+    connection.onerror = function (error) {
+        content.html($('<p>', { text: 'Sorry the server has gone...I guess it didn\'t like you' } ));
+    };
+
+    connection.onmessage = function (message) {
+        try {
+            data = JSON.parse(message.data);
+        } catch (e) {
+            console.log('This doesn\'t look like a valid JSON: ', message.data);
+            return;
+        }
+
+        if (data.type == 'pid') {
+            /*
+             * Synopsis stuff
+             * - Getting metadata information from episodedetails feed in order to populate the synopsis
+             * - format image and display it
+             *
+             * 'More Like This' stuff
+             * - Get a list of 5(?) things that are similar to current PID (morelikethis feed)
+             * - Format and store them in an array
+             * - Populate the HTML with the data
+             *
+             * Twitter
+             * - Make request to twitter API
+             */
+        }
+
+    };
 
 });
