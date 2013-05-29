@@ -36,7 +36,7 @@ define(["jquery"], function ($) {
              * This client wasnt the one that send the PID, so act
              * on the pid and populate the information (Synopsis and MLT)
              */
-            console.log(data.pid);
+            getSynopsisData(data.pid);
 
             /*
              * @TODO
@@ -55,5 +55,17 @@ define(["jquery"], function ($) {
         }
 
     };
+
+    function getSynopsisData(pid) {
+        var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
+
+        $.getJSON(url + '?callback=?', null, function (data) {
+            alert(data);
+            return data;
+        })
+        .fail(function () {
+            alert('error');
+        });
+    }
 
 });
