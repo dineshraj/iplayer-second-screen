@@ -54,16 +54,13 @@ wsServer.on('request', function(request) {
 
 //  console.log((new Date()) + ' Connection accepted.');
 
-
     // user sent some message
     connection.on('message', function(message) {
-        if (message.type === 'pid') {
             /*
-             * a client has sent a PID to the server we have to
+             * a client has sent a message to the server we have to
              * broadcast it again for it to reach the other clients
              */
             connection.send(message);
-        }
     });
 
     // user disconnected
