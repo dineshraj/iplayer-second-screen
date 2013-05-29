@@ -11,7 +11,8 @@ define(["jquery"], function ($) {
     // connect to the server
     var content = $('#second-screen'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
-        data;
+        data,
+        author = 'secondScreen';
 
     // subscribe to websocket events
     connection.onopen = function () {
@@ -30,8 +31,15 @@ define(["jquery"], function ($) {
             return;
         }
 
-        if (data.type == 'pid') {
+        if (data.type === 'pid' && data.author !== author) {
             /*
+             * This client wasnt the one that send the PID, so act
+             * on the pid and populate the information (Synopsis and MLT)
+             */
+            console.log(data.pid);
+
+            /*
+             * @TODO
              * Synopsis stuff
              * - Getting metadata information from episodedetails feed in order to populate the synopsis
              * - format image and display it
