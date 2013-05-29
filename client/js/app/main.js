@@ -25,7 +25,7 @@ define(["jquery"], function ($) {
 
     connection.onmessage = function (message) {
 
-        console.log(message);
+        console.log(JSON.parse(message.data));
 
 
  /*       try {

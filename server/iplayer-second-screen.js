@@ -60,10 +60,10 @@ wsServer.on('request', function(request) {
              * a client has sent a message to the server we have to
              * broadcast it again for it to reach the other clients
              */
-
             var json = JSON.stringify(message);
-                for (var i = 0; i < clients.length; i++) {
-                    clients[i].sendUTF(json);
+
+            for (var i = 0; i < clients.length; i++) {
+                clients[i].sendUTF(json);
             }
     });
 
