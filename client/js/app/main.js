@@ -24,19 +24,24 @@ define(["jquery"], function ($) {
     };
 
     connection.onmessage = function (message) {
-        try {
+
+        console.log(message);
+
+
+ /*       try {
             data = JSON.parse(message.data);
         } catch (e) {
             console.log('This doesn\'t look like a valid JSON: ', message.data);
             return;
         }
+*/
 
-        if (data.type === 'pid' && data.author !== author) {
+//        if (data.type === 'pid' && data.author !== author) {
             /*
              * This client wasnt the one that send the PID, so act
              * on the pid and populate the information (Synopsis and MLT)
              */
-            getSynopsisData(data.pid);
+//            getSynopsisData(data.pid);
 
             /*
              * @TODO
@@ -52,7 +57,7 @@ define(["jquery"], function ($) {
              * Twitter
              * - Make request to twitter API
              */
-        }
+//        }
 
     };
 
