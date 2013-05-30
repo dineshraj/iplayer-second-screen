@@ -17,6 +17,8 @@ var http = require('http');
 // list of currently connected clients (users)
 var clients = [ ];
 
+var pid = false;
+
 /**
  * Helper function for escaping input strings
  */
@@ -46,13 +48,13 @@ var wsServer = new webSocketServer({
 // This callback function is called every time someone
 // tries to connect to the WebSocket server
 wsServer.on('request', function(request) {
-//  console.log((new Date()) + ' Connection from origin ' + request.origin + '.');
+  console.log((new Date()) + ' Connection from origin ' + request.origin + '.');
 
     var connection = request.accept(null, request.origin); 
     // we need to know client index to remove them on 'close' event
     var index = clients.push(connection) - 1;
 
-//  console.log((new Date()) + ' Connection accepted.');
+  console.log((new Date()) + ' Connection accepted.');
 
     // user sent some message
     connection.on('message', function(message) {
@@ -60,17 +62,21 @@ wsServer.on('request', function(request) {
              * a client has sent a message to the server we have to
              * broadcast it again for it to reach the other clients
              */
-            var json = JSON.stringify(message);
 
-            for (var i = 0; i < clients.length; i++) {
-                clients[i].sendUTF(json);
+              console.log(message.utf8Data);
+
+
+                for (var i = 0; i < clients.length; i++) {
+                    clients[i].sendUTF(message.utf8Data);
             }
     });
 
     // user disconnected
     connection.on('close', function(connection) {
+        console.log('user leaves');
+
         // remove user from the list of connected clients
-        clients.splice(index, 1);
+//        clients.splice(index, 1);
     });
 
 });
