@@ -1,20 +1,25 @@
 define(["jquery"], function ($) {
 
+    var $content = $('#second-screen');
+
     // if user is running mozilla then use it's built-in WebSocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
     // Bye bye if you don't have WebSockets natively
     if (!window.WebSocket) {
-        content.html($('<p>', { text: 'Sorry, but your browser doesn\'t support WebSockets.'} ));
+        $content.html($('<p>', { text: 'Sorry, but your browser doesn\'t support WebSockets.'} ));
         return;
     }
 
-    // connect to the server
-    var content = $('#second-screen'),
+    // declare vars and connect to the server
+    var $playButton = $('.state-control .play-pause'),
+        $volumeDiv = $('.volume-control'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
         data;
 
-    // subscribe to websocket events
+    /*
+     * SUBSCRIBE TO WEBSOCKET EVENTS
+     */
     connection.onopen = function () {
         console.log('Connection open.');
         connection.send(
@@ -28,7 +33,7 @@ define(["jquery"], function ($) {
     };
 
     connection.onerror = function (error) {
-        content.html($('<p>', { text: 'Sorry the server has gone...I guess it didn\'t like you' } ));
+        $content.html($('<p>', { text: 'Sorry the server has gone...I guess it didn\'t like you' } ));
     };
 
     connection.onmessage = function (message) {
@@ -44,11 +49,15 @@ define(["jquery"], function ($) {
         if (obj.author !== author) {
             switch (obj.type) {
             case 'pid':
-                if (obj.playing) {
-                    $('.state').removeClass('play').addClass('pause').text('pause');
-                }
-                console.log('returned object', obj);
+                priv._setPlayPauseButton(obj.playing);
                 priv._getSynopsisData(obj.data);
+                priv._setVolume(obj.volume);
+                break;
+            case 'play':
+                priv._setPlayPauseButton();
+                break;
+            case 'pause':
+                priv._setPlayPauseButton();
                 break;
             default:
                 console.log(obj);
@@ -76,25 +85,25 @@ define(["jquery"], function ($) {
     /*
      * BINDING EVENTS FROM PAGE
      */
-     $('div.volume-control span').click(function () {
+     $volumeDiv.children('input').change(function () {
+        var vol = parseInt($(this).val(), 10)/10;
         connection.send(
             JSON.stringify(
                 {
                     type: 'volume',
                     author: 'secondScreen',
-                    data: parseInt($(this).text(), 10)/10
+                    data: vol
                 }
             )
         );
     });
 
-    $('div.volume-control span').click(function () {
+    $playButton.click(function () {
         connection.send(
             JSON.stringify(
                 {
-                    type: 'state',
-                    author: 'secondScreen',
-                    data: $(this).text()
+                    type: $(this).text(),
+                    author: 'secondScreen'
                 }
             )
         );
@@ -107,13 +116,33 @@ define(["jquery"], function ($) {
         _getSynopsisData: function (pid) {
             var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
 
-            $.getJSON(url)
-                .done(function (data) {
-                    console.log(data);
-                })
-                .fail(function () {
-                    console.log('Error retrieving data for', pid);
-                });
+            $.getJSON(
+                'http://www.dineshraj.com/misc/second-screen/proxy.php',
+                {
+                    csurl: url
+                }
+            )
+            .done(function (data) {
+                console.log(data);
+            })
+            .fail(function () {
+                console.log('Error retrieving data for', pid);
+            });
+        },
+
+        _setPlayPauseButton: function (playing) {
+
+            if ($playButton.hasClass('pause') || (playing !== null && playing === false)) {
+                $playButton.text('play');
+                $playButton.removeClass('pause').addClass('play');
+            } else if ($playButton.hasClass('play') || (playing !== null && playing === true)) {
+                $playButton.text('pause');
+                $playButton.removeClass('play').addClass('pause');
+            }
+        },
+
+        _setVolume: function(volume) {
+            $volumeDiv.children('input').val((volume*10));
         }
     };
 
