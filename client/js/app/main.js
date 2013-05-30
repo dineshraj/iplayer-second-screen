@@ -73,4 +73,31 @@ define(["jquery"], function ($) {
         });
     }
 
+    /*
+     * BINDING EVENTS FROM PAGE
+     */
+     $('div.volume-control span').click(function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'volume',
+                    author: 'secondScreen',
+                    data: parseInt($(this).text(), 10)/10
+                }
+            )
+        );
+    });
+
+    $('div.volume-control span').click(function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'state',
+                    author: 'secondScreen',
+                    data: $(this).text()
+                }
+            )
+        );
+    });
+
 });
