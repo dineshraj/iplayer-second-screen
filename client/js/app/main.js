@@ -11,12 +11,20 @@ define(["jquery"], function ($) {
     // connect to the server
     var content = $('#second-screen'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
-        data,
-        author = 'secondScreen';
+        author = 'secondScreen',
+        data;
 
     // subscribe to websocket events
     connection.onopen = function () {
-        console.log('Connection opened.');
+        console.log('Connection open.');
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'pid',
+                    author: 'secondScreen'
+                }
+            )
+        );
     };
 
     connection.onerror = function (error) {
@@ -24,54 +32,46 @@ define(["jquery"], function ($) {
     };
 
     connection.onmessage = function (message) {
+        var obj;
 
-        console.log(JSON.parse(message.data));
-
-
- /*       try {
-            data = JSON.parse(message.data);
+        try {
+            obj = JSON.parse(message.data);
         } catch (e) {
             console.log('This doesn\'t look like a valid JSON: ', message.data);
             return;
         }
-*/
 
-//        if (data.type === 'pid' && data.author !== author) {
-            /*
-             * This client wasnt the one that send the PID, so act
-             * on the pid and populate the information (Synopsis and MLT)
-             */
-//            getSynopsisData(data.pid);
+        if (obj.author !== author) {
+            switch (obj.type) {
+            case 'pid':
+                if (obj.playing) {
+                    $('.state').removeClass('play').addClass('pause').text('pause');
+                }
+                console.log('returned object', obj);
+                priv._getSynopsisData(obj.data);
+                break;
+            default:
+                console.log(obj);
+                break;
+            }
+        }
 
-            /*
-             * @TODO
-             * Synopsis stuff
-             * - Getting metadata information from episodedetails feed in order to populate the synopsis
-             * - format image and display it
-             *
-             * 'More Like This' stuff
-             * - Get a list of 5(?) things that are similar to current PID (morelikethis feed)
-             * - Format and store them in an array
-             * - Populate the HTML with the data
-             *
-             * Twitter
-             * - Make request to twitter API
-             */
-//        }
+/*
+ * @TODO
+ * Synopsis stuff
+ * - Getting metadata information from episodedetails feed in order to populate the synopsis
+ * - format image and display it
+ *
+ * 'More Like This' stuff
+ * - Get a list of 5(?) things that are similar to current PID (morelikethis feed)
+ * - Format and store them in an array
+ * - Populate the HTML with the data
+ *
+ * Twitter
+ * - Make request to twitter API
+ */
 
     };
-
-    function getSynopsisData(pid) {
-        var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
-
-        $.getJSON(url + '?callback=?', null, function (data) {
-            alert(data);
-            return data;
-        })
-        .fail(function () {
-            alert('error');
-        });
-    }
 
     /*
      * BINDING EVENTS FROM PAGE
@@ -99,5 +99,22 @@ define(["jquery"], function ($) {
             )
         );
     });
+
+    /*
+     * PRIVATE METHODS FOR POPULATING INTERFACE
+     */
+    var priv = {
+        _getSynopsisData: function (pid) {
+            var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
+
+            $.getJSON(url)
+                .done(function (data) {
+                    console.log(data);
+                })
+                .fail(function () {
+                    console.log('Error retrieving data for', pid);
+                });
+        }
+    };
 
 });
