@@ -11,22 +11,53 @@ h1 {
 
 .state-control, .volume-control {
     margin: 0 auto;
+    max-width: 230px
 }
-    .state-control {
-        max-width: 165px;
+
+.state-control span {
+    display: inline-block;
+    margin: 5px;
+    width: 43px;
+    height: 43px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #b6b6b6;
+    line-height: 48px;
+    background-image: url('img/icons.svg');
+    text-indent: -5000px;
+}
+    .state-control .play {
+        background-position: 176px 0;
     }
-    .volume-control {
-        max-width: 500px;
+    .state-control .pause {
+        background-position: 176px -64px;
+    }
+    .state-control .rewind {
+        background-position: 113px 0;
+    }
+    .state-control .forward {
+        background-position: 113px -64px;
     }
 
-    .volume-control span, .state-control span {
-        display: inline-block;
-        margin: 5px;
-        width: 50px;
-        height: 50px;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        background-color: #b6b6b6;
-        line-height: 48px;
-    }
+.volume-control .volume-value {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+input[type="range"]{
+   -webkit-appearance:none !important;
+   background-color: #dcdcdc;
+    height: 2px;
+    width: 100%;
+ }
+
+ input[type="range"]::-webkit-slider-thumb{
+   -webkit-appearance:none !important;  
+   background-color: #f54997;
+   height: 30px;
+   width: 15px;
+ }

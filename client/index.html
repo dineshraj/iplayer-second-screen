@@ -4,9 +4,10 @@
         <title>iPlayer Second Screen Experience</title>
         <script data-main="js/app" src="js/lib/require.js"></script>
         <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     </head>
 
-    <body>
+    <body class="no-js">
         <div id="second-screen">
 
             <h1>
@@ -16,22 +17,14 @@
 
             <div class="player-control">
                 <div class="state-control">
-                    <span class="state play">play</span>
+                    <span class="rewind">rewind</span>
+                    <span class="play-pause">play</span>
+                    <span class="forward">forward</span>
                 </div>
+
                 <div class="volume-control">
-                    <span>0</span>
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
-                    <span>11</span>
-                 </div>
+                    <input class="volume" type ="range" min ="0" max="10" step ="1" value ="7"/>
+                </div>
             </div>
         </div>
     </body>
