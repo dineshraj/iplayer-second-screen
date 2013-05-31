@@ -116,7 +116,7 @@ define(["jquery"], function ($) {
     var priv = {
         _getSynopsisData: function (pid) {
           //  var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
-            var url = 'fixtures/b01skh8t.json';
+            var url = 'http://localhost:8000/fixtures/b01skh8t.json';
 
             $.getJSON(url)
             .done(function (data) {
