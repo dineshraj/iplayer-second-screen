@@ -1,0 +1,3087 @@
+{
+   "link" : {
+      "rel" : "self",
+      "href" : "http://dynamite.iplayer.bbc.co.uk/iplayer/ion/episodedetail/episode/b01skh8t/format/json",
+      "type" : "application/json",
+      "locale_str" : "en"
+   },
+   "count" : "1",
+   "pagination" : {
+      "page" : "1",
+      "per_page" : "3000",
+      "total_count" : "1"
+   },
+   "blocklist" : [
+      {
+         "my_series_url" : "/iplayer/series/b01rryyj/Doctor_Who_Series_7_Part_2/",
+         "is_embargoed" : "0",
+         "image_template_url" : "",
+         "my_mediaselector_json_url" : "http://www.bbc.co.uk/mediaselector/4/mtis/all/b01skh89",
+         "play_version_has_competition_warning" : "",
+         "is_embeddable" : "0",
+         "original_title" : "The Name of the Doctor",
+         "original_broadcast_service_title" : "BBC One",
+         "series_medium_synopsis" : "Adventures across time and space with the time-travelling hero.",
+         "is_available_elektra_sd" : "1",
+         "series_long_synopsis" : "",
+         "available_toplevel_episode_count" : "7",
+         "long_synopsis" : "",
+         "webcast_service_id" : "",
+         "stacked_container_id" : "",
+         "complete_title" : "Doctor Who: Series 7 Part 2: The Name of the Doctor",
+         "subseries_title" : "",
+         "previous_episode_id" : "b01skfzk",
+         "is_downloadable_sd" : "1",
+         "next_episode_id" : "",
+         "is_repeat" : "0",
+         "actual_start" : "2013-05-24T18:45:00+0000",
+         "version_id" : "b01skh89",
+         "masterbrand_title" : "BBC One",
+         "availability_class" : "ondemand",
+         "title" : "8. The Name of the Doctor",
+         "is_downloadable_hd" : "0",
+         "is_available_mediaset_pc_hd" : "0",
+         "partner" : "s0000001",
+         "shortened_path" : "/i/b01skh8t/",
+         "is_delayed" : "0",
+         "available_sibling_count" : "0",
+         "my_short_url" : "bbc.co.uk/i/b01skh8t/",
+         "is_film" : "0",
+         "contextual_family_tree" : "b-s-e",
+         "is_available_mediaset_pc_sd" : "1",
+         "passionsite_link" : "http://www.bbc.co.uk/programmes/b006q2x0/microsite",
+         "media_type" : "video",
+         "next_available_episode" : "",
+         "passionsite_title" : "Doctor Who",
+         "categories" : [
+            {
+               "short_name" : "Audio Described",
+               "path" : "audiodescribed",
+               "parent_id" : "",
+               "level" : "1",
+               "text" : "Audio Described",
+               "updated" : "",
+               "type" : "category",
+               "id" : "dubbedaudiodescribed",
+               "title" : "Audio Described",
+               "child_categories" : []
+            },
+            {
+               "short_name" : "Drama",
+               "path" : "drama",
+               "parent_id" : "",
+               "level" : "1",
+               "text" : "Drama & Soaps",
+               "updated" : "",
+               "type" : "category",
+               "id" : "9100003",
+               "title" : "Drama",
+               "child_categories" : []
+            },
+            {
+               "short_name" : "SciFi & Fantasy",
+               "path" : "drama/scifi_and_fantasy",
+               "parent_id" : "9100003",
+               "level" : "2",
+               "text" : "Drama - SciFi & Fantasy",
+               "updated" : "",
+               "type" : "category",
+               "id" : "9200032",
+               "title" : "SciFi & Fantasy",
+               "child_categories" : []
+            }
+         ],
+         "series_id" : "b01rryyj",
+         "is_feedback_disabled" : "0",
+         "toplevel_container_id" : "b006q2x0",
+         "available_until" : "2013-05-31T19:44:00+0100",
+         "my_image_base_url" : "http://ichef.bbci.co.uk/programmeimages/episode/",
+         "brand_short_synopsis" : "Adventures in Space and Time.",
+         "is_available_mediaset_stb_sd" : "1",
+         "play_version_id" : "b01skh89",
+         "masterbrand" : "bbc_one",
+         "tag_schemes" : [],
+         "parent_id" : "b01rryyj",
+         "is_stacked" : "1",
+         "original_broadcast_service" : "bbc_one",
+         "toplevel_container_title" : "Doctor Who",
+         "brand_medium_synopsis" : "Adventures in Space and Time.",
+         "my_playlist_url" : "/iplayer/playlist/b01skh8t/",
+         "contributors" : [
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Smith",
+               "given_name" : "Matt",
+               "search_url" : "/iplayer/search/?q=%22Matt%20Smith%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-02T15:37:33+0000",
+               "id" : "p018j1nt",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Coleman",
+               "given_name" : "Jenna-Louise",
+               "search_url" : "/iplayer/search/?q=%22Jenna-Louise%20Coleman%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-02T15:37:44+0000",
+               "id" : "p018j1n9",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Kingston",
+               "given_name" : "Alex",
+               "search_url" : "/iplayer/search/?q=%22Alex%20Kingston%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:38+0000",
+               "id" : "p01902hy",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Grant",
+               "given_name" : "Richard E",
+               "search_url" : "/iplayer/search/?q=%22Richard%20E%20Grant%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:38+0000",
+               "id" : "p01902hp",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "McIntosh",
+               "given_name" : "Neve",
+               "search_url" : "/iplayer/search/?q=%22Neve%20McIntosh%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-03T00:08:37+0000",
+               "id" : "p018jlq9",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Stewart",
+               "given_name" : "Catrin",
+               "search_url" : "/iplayer/search/?q=%22Catrin%20Stewart%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-03T00:08:39+0000",
+               "id" : "p018jlq2",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Starkey",
+               "given_name" : "Dan",
+               "search_url" : "/iplayer/search/?q=%22Dan%20Starkey%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-04-13T07:01:07+0000",
+               "id" : "p017ncw3",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "de Leon Allen",
+               "given_name" : "Eve",
+               "search_url" : "/iplayer/search/?q=%22Eve%20de%20Leon%20Allen%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-03T00:08:39+0000",
+               "id" : "p018jlq1",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Voutsas",
+               "given_name" : "Nasi",
+               "search_url" : "/iplayer/search/?q=%22Nasi%20Voutsas%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:36+0000",
+               "id" : "p01902jm",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Avery",
+               "given_name" : "David",
+               "search_url" : "/iplayer/search/?q=%22David%20Avery%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:37+0000",
+               "id" : "p01902j6",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Jenn",
+               "given_name" : "Michael",
+               "search_url" : "/iplayer/search/?q=%22Michael%20Jenn%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:38+0000",
+               "id" : "p01902hv",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Affleck",
+               "given_name" : "Rab",
+               "search_url" : "/iplayer/search/?q=%22Rab%20Affleck%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:34+0000",
+               "id" : "p01902k1",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Irvine",
+               "given_name" : "Samuel",
+               "search_url" : "/iplayer/search/?q=%22Samuel%20Irvine%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:36+0000",
+               "id" : "p01902jn",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Downham",
+               "given_name" : "Sophie",
+               "search_url" : "/iplayer/search/?q=%22Sophie%20Downham%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:32+0000",
+               "id" : "p01902kn",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Kasey",
+               "given_name" : "Paul",
+               "search_url" : "/iplayer/search/?q=%22Paul%20Kasey%22",
+               "role_name" : "ACTOR",
+               "updated" : "2013-05-14T08:45:36+0000",
+               "id" : "p01902jr",
+               "type" : "contributor",
+               "role" : "Actor"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Moffat",
+               "given_name" : "Steven",
+               "search_url" : "/iplayer/search/?q=%22Steven%20Moffat%22",
+               "role_name" : "SCRIPTWRITER",
+               "updated" : "2013-05-10T00:37:45+0000",
+               "id" : "p018v5ly",
+               "type" : "contributor",
+               "role" : "Writer"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Wilson",
+               "given_name" : "Marcus",
+               "search_url" : "/iplayer/search/?q=%22Marcus%20Wilson%22",
+               "role_name" : "PRODUCER",
+               "updated" : "2013-05-02T15:37:44+0000",
+               "id" : "p018j1nc",
+               "type" : "contributor",
+               "role" : "Producer"
+            },
+            {
+               "character_name" : "",
+               "episode_count" : "",
+               "family_name" : "Metzstein",
+               "given_name" : "Saul",
+               "search_url" : "/iplayer/search/?q=%22Saul%20Metzstein%22",
+               "role_name" : "DIRECTOR",
+               "updated" : "2013-05-03T00:08:36+0000",
+               "id" : "p018jlqj",
+               "type" : "contributor",
+               "role" : "Director"
+            }
+         ],
+         "synopsis" : "The Doctor has a secret he will take to his grave. And it is discovered...",
+         "has_guidance" : "0",
+         "ondemand_scheduled_start" : "2013-05-18T18:45:00+0000",
+         "ondemand_start" : "2013-05-18T18:45:00+0000",
+         "my_alternate_url" : "",
+         "updated" : "2013-05-29T09:36:58+0000",
+         "id" : "b01skh8t",
+         "related_links" : [],
+         "is_free" : "1",
+         "links" : [
+            {
+               "rel" : "ion:contribution-list",
+               "href" : "https://www.bbc.co.uk/iplayer/ion/contribution/list/episode/b01skh8t"
+            }
+         ],
+         "is_clip" : "0",
+         "series_short_synopsis" : "Adventures across time and space with the time-travelling hero.",
+         "brand_title" : "Doctor Who",
+         "duration" : "2700",
+         "subseries_id" : "",
+         "hierarchical_title" : "The Name of the Doctor",
+         "type" : "episode_detail",
+         "has_bsl" : "0",
+         "is_available_elektra_hd" : "0",
+         "brand_id" : "b006q2x0",
+         "my_url" : "/iplayer/episode/b01skh8t/Doctor_Who_Series_7_Part_2_The_Name_of_the_Doctor/",
+         "original_broadcast_datetime" : "2013-05-18T19:00:00+0100",
+         "series_title" : "Series 7 Part 2",
+         "position" : "8",
+         "is_available_mediaset_stb_hd" : "0",
+         "clips" : [],
+         "versions" : [
+            {
+               "most_recent_broadcast_service" : "bbc_three",
+               "aspect_ratio" : "16:9",
+               "download_size_elektra_hd" : "0",
+               "is_available_mediaset_stb_sd" : "1",
+               "is_original" : "1",
+               "first_broadcast_service_title" : "BBC One",
+               "original_broadcast_service_title" : "BBC One",
+               "original_broadcast_service" : "bbc_one",
+               "most_recent_broadcast_datetime" : "2013-05-24T19:00:00+0100",
+               "is_available_elektra_sd" : "1",
+               "ondemand_start" : "2013-05-18T18:45:00+0000",
+               "ondemand_scheduled_start" : "2013-05-18T18:45:00+0000",
+               "is_available_vp6_stream" : "0",
+               "download_size_http_wmv" : "460151429",
+               "updated" : "2013-05-10T00:16:15+0000",
+               "id" : "b01skh89",
+               "is_available_streaming_hd" : "0",
+               "ondemands" : [
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900108_flv_avc1_med_B337479062",
+                     "service" : "iplayer_stbx_streaming_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ipad",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP and HLS streaming intended for iPad 1 and 2 over WiFi and 3G.  This media set will be deprecated in favour of apple-ipad-hls in time"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "stbx-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stbx-sd-all-h264"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "stbx-sd-med-h264",
+                           "playback_formats" : "",
+                           "description" : "stbx-sd-med-h264"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:07+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hv",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "481402548",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900092_flv_avc1_high_stb_B337373730",
+                     "service" : "iplayer_stb_streaming_sd_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-cardinal",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP streaming via BT WCC CDS intended for BT Cardinal (BT Vision) bigscreen devices"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-all-h264",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTPS streaming intended for Set-top boxes (STBs) using the native media player"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-all-h264"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:32:53+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c64",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/h264_flv_hd_337373530",
+                     "service" : "iplayer_streaming_h264_flv_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-hd",
+                           "playback_formats" : "",
+                           "description" : "pc-hd"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:46:08+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902t0",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "511722840",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900071_ts_avc_1500_B337479062",
+                     "service" : "iplayer_freesat_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "freesat",
+                           "playback_formats" : "",
+                           "description" : "freesat"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:05+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j4",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "502337915",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900275_flv_avc1_high_bl_playready_B337373730",
+                     "service" : "mobile_download_1500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-download-high",
+                           "playback_formats" : "",
+                           "description" : "High resolution PlayReady download for Android devices"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ios-download-high",
+                           "playback_formats" : "",
+                           "description" : "High resolution PlayReady download for Apple iOS devices"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:43+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196chk",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900196_flv_avc1_low_B337373730",
+                     "service" : "iptv_streaming_500",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:34:28+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5k",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900045_flv_avc1_high_B337373730",
+                     "service" : "iplayer_streaming_h264_flv_high",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:29+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c2z",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900167_flv_avc1_high_B337479062",
+                     "service" : "mobile_streaming_1500",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:43:37+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hj",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "927092371",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900114_flv_avc1_hd_B337373530",
+                     "service" : "pc_streaming_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-hd",
+                           "playback_formats" : "",
+                           "description" : "pc-hd"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:50+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cjq",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900165_flv_avc1_med_B337373730",
+                     "service" : "mobile_streaming_800",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-mainprofile-phone",
+                           "playback_formats" : "",
+                           "description" : "Streaming intended for Android phones which are capable of playing h.264 main profile over wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-mainprofile-tablet",
+                           "playback_formats" : "",
+                           "description" : "Streaming intended for Android tablets which are capable of playing h.264 main profile over wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ipad-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPad 1 and 2 over WiFi and 3G.  This media set is intended to supercede apple-ipad in time"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone4-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 3GS and 4 and iPod gen 3 and 4 over WiFi and 3G"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:12+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4r",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "184232956",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900017_qt_avc1_med_B337479062",
+                     "service" : "iplayer_streaming_http_mp4",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-i-family",
+                           "playback_formats" : "",
+                           "description" : "apple-i-family"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:16+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jh",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "19800930",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900284_flv_avc1_sub64_B337373730",
+                     "service" : "mobile_streaming_64",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:34+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c53",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "927092371",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900091_flv_avc1_hd_B337373530",
+                     "service" : "iplayer_stb_streaming_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-cardinal",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP streaming via BT WCC CDS intended for BT Cardinal (BT Vision) bigscreen devices"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-hd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-hd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-hd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-hd-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-all-h264",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTPS streaming intended for Set-top boxes (STBs) using the native media player"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-hd-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-hd-h264"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:49+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cjp",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900164_flv_avc1_low_B337479062",
+                     "service" : "mobile_streaming_500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-tablet-rtmp-3g",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for higher specification Android phones and tablets, over 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone4-ipad-hls-3g",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 3GS and 4, iPod gen 3 and 4, and iPad 1+2, over 3G"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:24+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hz",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "19800930",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900284_flv_avc1_sub64_B337479062",
+                     "service" : "mobile_streaming_64",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:53+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hq",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "74686",
+                     "actual_start" : "2013-05-19T03:56:58+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900118_xml_ttml_B337373730",
+                     "service" : "captions",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "",
+                           "type" : "media_set",
+                           "id" : "captions",
+                           "playback_formats" : "",
+                           "description" : "captions"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:49+0000",
+                     "type" : "ondemand",
+                     "id" : "p0197d70",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "460149477",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900117_wm_wmv_hi_B337373730",
+                     "service" : "iptv_streaming_bt",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision",
+                           "playback_formats" : "",
+                           "description" : "bt-vision"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:14+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4s",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900108_flv_avc1_med_B337373730",
+                     "service" : "iplayer_stbx_streaming_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ipad",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP and HLS streaming intended for iPad 1 and 2 over WiFi and 3G.  This media set will be deprecated in favour of apple-ipad-hls in time"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "stbx-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stbx-sd-all-h264"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "stbx-sd-med-h264",
+                           "playback_formats" : "",
+                           "description" : "stbx-sd-med-h264"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:27+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4v",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900045_flv_avc1_high_B337479062",
+                     "service" : "iplayer_streaming_h264_flv_high",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:09+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hx",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/h264_air_hd_337373530",
+                     "service" : "iplayer_download_http_h264_air_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download-hd",
+                           "playback_formats" : "",
+                           "description" : "pc-download-hd"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:46:01+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902t1",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/download_337479062",
+                     "service" : "mobile_download_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:00+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196csp",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900027_flv_avc1_med_B337479062",
+                     "service" : "iplayer_streaming_h264_flv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:06+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hh",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/iptv_hd_337373530",
+                     "service" : "iplayer_iptv_device_hd_abstract",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-hd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-hd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-hd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-hd-ns"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:45:53+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902t2",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "255088169",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900070_3gp_avc1_sd_B337479062",
+                     "service" : "iplayer_wii",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "gaming",
+                           "type" : "media_set",
+                           "id" : "iplayer-wii",
+                           "playback_formats" : "",
+                           "description" : "iplayer-wii"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:43:44+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hm",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "930446616",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900113_flv_avc1_hd_flashaccess_B337373530",
+                     "service" : "pc_download_air_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download-hd",
+                           "playback_formats" : "",
+                           "description" : "pc-download-hd"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:34:04+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cm2",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900027_flv_avc1_med_B337373730",
+                     "service" : "iplayer_streaming_h264_flv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:32:46+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4t",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "120898538",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900088_flv_avc1_vlow_B337479062",
+                     "service" : "iplayer_streaming_h264_flv_vlo",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-rtmp-low",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for lower specification Android phone over Wifi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone2-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 2G, iPhone 3G and iPod Gen 1 and 2 over WiFi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-emp",
+                           "playback_formats" : "",
+                           "description" : "mobile-emp"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-high",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-high"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-low",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-low"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-standard",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-standard"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:43:51+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998ht",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "120898538",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900195_flv_avc1_vlow_B337373730",
+                     "service" : "iptv_streaming_400",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:52+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c6y",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/337479062",
+                     "service" : "iplayer_broadband_download",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download",
+                           "playback_formats" : "",
+                           "description" : "pc-download"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:47:11+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cry",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/download_337373730",
+                     "service" : "mobile_download_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:32:36+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902nq",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "56558945",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900161_3gp_mpeg4_lo_B337479062",
+                     "service" : "mobile_streaming_100",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:15+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hy",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "184232956",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900017_qt_avc1_med_B337373730",
+                     "service" : "iplayer_streaming_http_mp4",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-i-family",
+                           "playback_formats" : "",
+                           "description" : "apple-i-family"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:44+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5t",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "273004576",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900069_ts_avc_800_B337373730",
+                     "service" : "iplayer_freesat",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "freesat",
+                           "playback_formats" : "",
+                           "description" : "freesat"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:12+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c6n",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "511722840",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900071_ts_avc_1500_B337373730",
+                     "service" : "iplayer_freesat_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "freesat",
+                           "playback_formats" : "",
+                           "description" : "freesat"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:40+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5p",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "460149477",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900117_wm_wmv_hi_B337479062",
+                     "service" : "iptv_streaming_bt",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision",
+                           "playback_formats" : "",
+                           "description" : "bt-vision"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:13+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j6",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "5212804404",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900274_ts_avc_hd_B337373530",
+                     "service" : "iplayer_bskyb_hd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "sky-anytime",
+                           "playback_formats" : "",
+                           "description" : "Media used to generate VRP for sending to Sky"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:38+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196v9m",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900046_flv_avc1_low_B337479062",
+                     "service" : "iplayer_streaming_h264_flv_lo",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:21+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j1",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "74686",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900118_xml_ttml_B337479062",
+                     "service" : "captions",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "",
+                           "type" : "media_set",
+                           "id" : "captions",
+                           "playback_formats" : "",
+                           "description" : "captions"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:21+0000",
+                     "type" : "ondemand",
+                     "id" : "p0197d6z",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "460151429",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900112_wm_wmv_hi_wmdrm_B337373730",
+                     "service" : "pc_download_wmv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "wmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP progressive download intended for Windows Media Players on a PC"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:20+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cbr",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900201_flv_avc1_high_B337373730",
+                     "service" : "iptv_streaming_1500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264-abr",
+                           "playback_formats" : "",
+                           "description" : "Ondemand \"HTTP Live Streaming\" (HLS) intended for Set-top boxes (STBs) using the native media player, excluding HD and audio content"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:34:51+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c2y",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "253896251",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900285_flv_avc1_med_bl_B337479062",
+                     "service" : "mobile_streaming_800_baseline",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-rtmp-high",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for higher specification Android phones over WiFi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-tablet-rtmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for Android tablets over WiFi and 3G"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:55+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hn",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "460151429",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900112_wm_wmv_hi_wmdrm_B337479062",
+                     "service" : "pc_download_wmv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "wmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP progressive download intended for Windows Media Players on a PC"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:02+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j5",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900162_3gp_mpeg4_med_B337373730",
+                     "service" : "mobile_streaming_200",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:21+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c6q",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "255088169",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900070_3gp_avc1_sd_B337373730",
+                     "service" : "iplayer_wii",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "gaming",
+                           "type" : "media_set",
+                           "id" : "iplayer-wii",
+                           "playback_formats" : "",
+                           "description" : "iplayer-wii"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:42+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5n",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900193_3gp_mpeg4_med_B337479062",
+                     "service" : "iptv_streaming_200",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:34+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jj",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/streaming337479062",
+                     "service" : "iplayer_broadband_streaming",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:48:04+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196crp",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900165_flv_avc1_med_B337479062",
+                     "service" : "mobile_streaming_800",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-mainprofile-phone",
+                           "playback_formats" : "",
+                           "description" : "Streaming intended for Android phones which are capable of playing h.264 main profile over wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-mainprofile-tablet",
+                           "playback_formats" : "",
+                           "description" : "Streaming intended for Android tablets which are capable of playing h.264 main profile over wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ipad-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPad 1 and 2 over WiFi and 3G.  This media set is intended to supercede apple-ipad in time"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone4-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 3GS and 4 and iPod gen 3 and 4 over WiFi and 3G"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:54+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hk",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "481402548",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900092_flv_avc1_high_stb_B337479062",
+                     "service" : "iplayer_stb_streaming_sd_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-cardinal",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP streaming via BT WCC CDS intended for BT Cardinal (BT Vision) bigscreen devices"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-all-h264",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTPS streaming intended for Set-top boxes (STBs) using the native media player"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-all-h264"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:28+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j7",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900196_flv_avc1_low_B337479062",
+                     "service" : "iptv_streaming_500",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:08+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j9",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "120898538",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900195_flv_avc1_vlow_B337479062",
+                     "service" : "iptv_streaming_400",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:48+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jm",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "199523343",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900037_wm_wmv_lo_wmdrm_B337373730",
+                     "service" : "iplayer_mobile_wmv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "wmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP progressive download intended for Windows Media Players on a PC"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:27+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196cgy",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "502989833",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900029_flv_avc1_high_flashaccess_B337373730",
+                     "service" : "iplayer_download_http_h264_air_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download",
+                           "playback_formats" : "",
+                           "description" : "pc-download"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:20+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c8g",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "502989833",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900029_flv_avc1_high_flashaccess_B337479062",
+                     "service" : "iplayer_download_http_h264_air_high",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download",
+                           "playback_formats" : "",
+                           "description" : "pc-download"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:45+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998j8",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/streaming_337373730",
+                     "service" : "mobile_streaming_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:02+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902nz",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "253896251",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900285_flv_avc1_med_bl_B337373730",
+                     "service" : "mobile_streaming_800_baseline",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-rtmp-high",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for higher specification Android phones over WiFi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-tablet-rtmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for Android tablets over WiFi and 3G"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:25+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5m",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/iptv_337373730",
+                     "service" : "iplayer_iptv_device_abstract",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision",
+                           "playback_formats" : "",
+                           "description" : "bt-vision"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:54+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902n8",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "2143497604",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900273_ts_avc_sd_B337373730",
+                     "service" : "iplayer_bskyb_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "sky-anytime",
+                           "playback_formats" : "",
+                           "description" : "Media used to generate VRP for sending to Sky"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:34:44+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196b5t",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "56558945",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900161_3gp_mpeg4_lo_B337373730",
+                     "service" : "mobile_streaming_100",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:36:29+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4p",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "257319649",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900204_flv_avc1_med_playready_B337373730",
+                     "service" : "mobile_download_800",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-download-medium",
+                           "playback_formats" : "",
+                           "description" : "Medium resolution PlayReady download for Android devices"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ios-download-medium",
+                           "playback_formats" : "",
+                           "description" : "Medium resolution PlayReady download for Apple iOS devices"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:34:35+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c9y",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900201_flv_avc1_high_B337479062",
+                     "service" : "iptv_streaming_1500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264-abr",
+                           "playback_formats" : "",
+                           "description" : "Ondemand \"HTTP Live Streaming\" (HLS) intended for Set-top boxes (STBs) using the native media player, excluding HD and audio content"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:33+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jd",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/gaming_337479062",
+                     "service" : "iplayer_gaming_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:33+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196csd",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900093_flv_avc1_med_B337479062",
+                     "service" : "iplayer_stb_streaming_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-cardinal",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP streaming via BT WCC CDS intended for BT Cardinal (BT Vision) bigscreen devices"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-all-h264",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTPS streaming intended for Set-top boxes (STBs) using the native media player"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-all-h264"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264-abr",
+                           "playback_formats" : "",
+                           "description" : "Ondemand \"HTTP Live Streaming\" (HLS) intended for Set-top boxes (STBs) using the native media player, excluding HD and audio content"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-med-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-med-h264"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:44:41+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jk",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "502337915",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900275_flv_avc1_high_bl_playready_B337479062",
+                     "service" : "mobile_download_1500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-download-high",
+                           "playback_formats" : "",
+                           "description" : "High resolution PlayReady download for Android devices"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ios-download-high",
+                           "playback_formats" : "",
+                           "description" : "High resolution PlayReady download for Apple iOS devices"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:43:30+0000",
+                     "type" : "ondemand",
+                     "id" : "p01983ff",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900164_flv_avc1_low_B337373730",
+                     "service" : "mobile_streaming_500",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-tablet-rtmp-3g",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for higher specification Android phones and tablets, over 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone4-ipad-hls-3g",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 3GS and 4, iPod gen 3 and 4, and iPad 1+2, over 3G"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:11+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5r",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/streaming337373730",
+                     "service" : "iplayer_broadband_streaming",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:45:46+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902l7",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/gaming_337373730",
+                     "service" : "iplayer_gaming_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:38:05+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902ms",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "120898538",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900088_flv_avc1_vlow_B337373730",
+                     "service" : "iplayer_streaming_h264_flv_vlo",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-phone-rtmp-low",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for lower specification Android phone over Wifi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-iphone2-hls",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HLS streaming intended for iPhone 2G, iPhone 3G and iPod Gen 1 and 2 over WiFi and 3G"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-emp",
+                           "playback_formats" : "",
+                           "description" : "mobile-emp"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-high",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-high"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-low",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-low"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "mobile-flash-standard",
+                           "playback_formats" : "",
+                           "description" : "mobile-flash-standard"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:26+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c72",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900032_3gp_mpeg4_med_B337373730",
+                     "service" : "iplayer_streaming_n95_wifi",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "3gp-mobile-generic",
+                           "playback_formats" : "",
+                           "description" : "3gp-mobile-generic"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "3gp-mobile-wifi",
+                           "playback_formats" : "",
+                           "description" : "3gp-mobile-wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "n-series",
+                           "playback_formats" : "",
+                           "description" : "n-series"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "n-series-wifi",
+                           "playback_formats" : "",
+                           "description" : "n-series-wifi"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:59+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c74",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900162_3gp_mpeg4_med_B337479062",
+                     "service" : "mobile_streaming_200",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:43:58+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hw",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "56558945",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900192_3gp_mpeg4_lo_B337373730",
+                     "service" : "iptv_streaming_100",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:33:18+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c54",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900032_3gp_mpeg4_med_B337479062",
+                     "service" : "iplayer_streaming_n95_wifi",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "3gp-mobile-generic",
+                           "playback_formats" : "",
+                           "description" : "3gp-mobile-generic"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "3gp-mobile-wifi",
+                           "playback_formats" : "",
+                           "description" : "3gp-mobile-wifi"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "n-series",
+                           "playback_formats" : "",
+                           "description" : "n-series"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "n-series-wifi",
+                           "playback_formats" : "",
+                           "description" : "n-series-wifi"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:44+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jf",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "257319649",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900204_flv_avc1_med_playready_B337479062",
+                     "service" : "mobile_download_800",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "android-download-medium",
+                           "playback_formats" : "",
+                           "description" : "Medium resolution PlayReady download for Android devices"
+                        },
+                        {
+                           "rights_platform" : "mobile",
+                           "type" : "media_set",
+                           "id" : "apple-ios-download-medium",
+                           "playback_formats" : "",
+                           "description" : "Medium resolution PlayReady download for Apple iOS devices"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:40+0000",
+                     "type" : "ondemand",
+                     "id" : "p01983fg",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "265201779",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900093_flv_avc1_med_B337373730",
+                     "service" : "iplayer_stb_streaming_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-cardinal",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP streaming via BT WCC CDS intended for BT Cardinal (BT Vision) bigscreen devices"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-all-h264",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTPS streaming intended for Set-top boxes (STBs) using the native media player"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-all-h264"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-all-h264-abr",
+                           "playback_formats" : "",
+                           "description" : "Ondemand \"HTTP Live Streaming\" (HLS) intended for Set-top boxes (STBs) using the native media player, excluding HD and audio content"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "stb-sd-med-h264",
+                           "playback_formats" : "",
+                           "description" : "stb-sd-med-h264"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:46+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c4j",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "273004576",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900069_ts_avc_800_B337479062",
+                     "service" : "iplayer_freesat",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "freesat",
+                           "playback_formats" : "",
+                           "description" : "freesat"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:42:41+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jb",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/iptv_337479062",
+                     "service" : "iplayer_iptv_device_abstract",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision",
+                           "playback_formats" : "",
+                           "description" : "bt-vision"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-all-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-all-ns"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "flash-iplayer-sd-ns",
+                           "playback_formats" : "",
+                           "description" : "flash-iplayer-sd-ns"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:28+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196csh",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "75953920",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900193_3gp_mpeg4_med_B337373730",
+                     "service" : "iptv_streaming_200",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:20+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c6r",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "56558945",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900192_3gp_mpeg4_lo_B337479062",
+                     "service" : "iptv_streaming_100",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:31+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998jl",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "499613592",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900167_flv_avc1_high_B337373730",
+                     "service" : "mobile_streaming_1500",
+                     "media_sets" : "",
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:35:36+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c34",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/337373730",
+                     "service" : "iplayer_broadband_download",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-download",
+                           "playback_formats" : "",
+                           "description" : "pc-download"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:45:39+0000",
+                     "type" : "ondemand",
+                     "id" : "p01902lb",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "199523343",
+                     "actual_start" : "2013-05-24T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900037_wm_wmv_lo_wmdrm_B337479062",
+                     "service" : "iplayer_mobile_wmv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "bt-vision-wmp",
+                           "playback_formats" : "",
+                           "description" : "bt-vision-wmp"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "wmp",
+                           "playback_formats" : "",
+                           "description" : "Ondemand HTTP progressive download intended for Windows Media Players on a PC"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:39:00+0000",
+                     "type" : "ondemand",
+                     "id" : "p01998hl",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "2143497604",
+                     "actual_start" : "2013-05-25T01:20:50+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900273_ts_avc_sd_B337479062",
+                     "service" : "iplayer_bskyb_sd",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "sky-anytime",
+                           "playback_formats" : "",
+                           "description" : "Media used to generate VRP for sending to Sky"
+                        }
+                     ],
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:37:20+0000",
+                     "type" : "ondemand",
+                     "id" : "p019jzx8",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "0",
+                     "actual_start" : "",
+                     "oid" : "b01skh89.imi:bbdownload.bds.tv/streaming_337479062",
+                     "service" : "mobile_streaming_abstract",
+                     "media_sets" : "",
+                     "end" : "2013-05-31T18:44:00+0000",
+                     "discoverable_end" : "2013-05-31T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:41:36+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196csr",
+                     "scheduled_start" : "2013-05-24T18:45:00+0000",
+                     "is_free" : "1"
+                  },
+                  {
+                     "file_size" : "148888045",
+                     "actual_start" : "2013-05-18T18:45:00+0000",
+                     "oid" : "b01skh89.imi:bbc.co.uk/MP_S900046_flv_avc1_low_B337373730",
+                     "service" : "iplayer_streaming_h264_flv_lo",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:13+0000",
+                     "type" : "ondemand",
+                     "id" : "p0196c5v",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  }
+               ],
+               "sound_format" : "Stereo",
+               "download_size_kontiki_wmv" : "0",
+               "first_broadcast_service" : "bbc_one",
+               "duration" : "2700",
+               "is_audiodescribed" : "0",
+               "is_available_kontiki_wmv" : "0",
+               "download_size_elektra_sd" : "502989833",
+               "content_expiry" : "2013-05-31T18:44:00+0000",
+               "guidance_code" : "",
+               "type" : "version",
+               "is_available_mediaset_pc_hd" : "0",
+               "has_bsl" : "0",
+               "is_available_h264_high_stream" : "1",
+               "original_broadcast_datetime" : "2013-05-18T19:00:00+0100",
+               "is_available_elektra_hd" : "0",
+               "is_delayed" : "0",
+               "version_type_string" : "Original version",
+               "is_available_mediaset_stb_hd" : "0",
+               "is_available_http_wmv" : "1",
+               "download_size_iplayer_mobile_wmv" : "199523343",
+               "availability" : "CURRENT",
+               "is_available_mediaset_pc_sd" : "1",
+               "is_available_h264_stream" : "1",
+               "most_recent_broadcast_service_title" : "BBC Three",
+               "guidance_text" : "",
+               "is_available_iplayer_mobile_wmv" : "1",
+               "is_coming_very_soon" : "0"
+            },
+            {
+               "most_recent_broadcast_service" : "",
+               "aspect_ratio" : "16:9",
+               "download_size_elektra_hd" : "0",
+               "is_available_mediaset_stb_sd" : "0",
+               "is_original" : "0",
+               "first_broadcast_service_title" : "",
+               "original_broadcast_service_title" : "",
+               "original_broadcast_service" : "",
+               "most_recent_broadcast_datetime" : "",
+               "is_available_elektra_sd" : "0",
+               "ondemand_start" : "2013-05-18T20:49:42+0000",
+               "ondemand_scheduled_start" : "2013-05-18T18:45:00+0000",
+               "is_available_vp6_stream" : "0",
+               "download_size_http_wmv" : "0",
+               "updated" : "2013-05-29T09:43:28+0000",
+               "id" : "p01974tz",
+               "is_available_streaming_hd" : "0",
+               "ondemands" : [
+                  {
+                     "file_size" : "1",
+                     "actual_start" : "2013-05-18T20:49:42+0000",
+                     "oid" : "p01974tz.imi:bbdownload.bds.tv/H264_AD_337373730",
+                     "service" : "iplayer_streaming_h264_flv",
+                     "media_sets" : [
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "emp",
+                           "playback_formats" : "",
+                           "description" : "The 'emp' media set is the default media set (ie: if none specified 'emp' is set) for the episodedetail ION feed, and the episode playlist.  It will be deprecated in favour of the 'pc' media set in time."
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer on a standard PC browser.  This media set also contains all Radio services (both abstract and concrete) for all territiories, in order to correctly display availability for UK Radio Player, bo"
+                        },
+                        {
+                           "rights_platform" : "iptv",
+                           "type" : "media_set",
+                           "id" : "pc-bigscreen",
+                           "playback_formats" : "",
+                           "description" : "Ondemand RTMP streaming intended for clients accessing iPlayer through the 'Big Screen' site"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "pc-sd",
+                           "playback_formats" : "",
+                           "description" : "pc-sd"
+                        },
+                        {
+                           "rights_platform" : "pc",
+                           "type" : "media_set",
+                           "id" : "ps3",
+                           "playback_formats" : "",
+                           "description" : "ps3"
+                        }
+                     ],
+                     "end" : "2013-05-25T18:44:00+0000",
+                     "discoverable_end" : "2013-05-25T18:44:00+0000",
+                     "revocation_status" : "active",
+                     "updated" : "2013-05-29T09:40:02+0000",
+                     "type" : "ondemand",
+                     "id" : "p01974v4",
+                     "scheduled_start" : "2013-05-18T18:45:00+0000",
+                     "is_free" : "1"
+                  }
+               ],
+               "sound_format" : "Stereo",
+               "download_size_kontiki_wmv" : "0",
+               "first_broadcast_service" : "",
+               "duration" : "2700",
+               "is_audiodescribed" : "1",
+               "is_available_kontiki_wmv" : "0",
+               "download_size_elektra_sd" : "0",
+               "content_expiry" : "",
+               "guidance_code" : "",
+               "type" : "version",
+               "is_available_mediaset_pc_hd" : "0",
+               "has_bsl" : "0",
+               "is_available_h264_high_stream" : "0",
+               "original_broadcast_datetime" : "",
+               "is_available_elektra_hd" : "0",
+               "is_delayed" : "0",
+               "version_type_string" : "Audio Described",
+               "is_available_mediaset_stb_hd" : "0",
+               "is_available_http_wmv" : "0",
+               "download_size_iplayer_mobile_wmv" : "0",
+               "availability" : "PAST",
+               "is_available_mediaset_pc_sd" : "0",
+               "is_available_h264_stream" : "0",
+               "most_recent_broadcast_service_title" : "",
+               "guidance_text" : "",
+               "is_available_iplayer_mobile_wmv" : "0",
+               "is_coming_very_soon" : "0"
+            }
+         ],
+         "availability" : "CURRENT",
+         "brand_long_synopsis" : "",
+         "image_pid" : "",
+         "is_downloadable" : "1",
+         "short_synopsis" : "The Doctor has a secret he will take to his grave. And it is discovered...",
+         "has_segment" : "0",
+         "brand_related_links" : [
+            {
+               "medium_synopsis" : "Watch exclusive videos and find out more about your favourite monsters!",
+               "is_external" : "0",
+               "short_synopsis" : "Watch exclusive videos and find out more about your favourite monsters!",
+               "uri" : "http://www.bbc.co.uk/doctorwho",
+               "link_type" : "priority_content",
+               "long_synopsis" : "Watch exclusive videos and find out more about your favourite monsters!",
+               "title" : "Enter The World of Doctor Who",
+               "type" : "related_link",
+               "updated" : "2012-12-19T14:18:55+0000"
+            },
+            {
+               "medium_synopsis" : "Dozens of great games for you to play!",
+               "is_external" : "0",
+               "short_synopsis" : "Dozens of great games for you to play!",
+               "uri" : "http://www.bbc.co.uk/programmes/b006q2x0/features/funandgames",
+               "link_type" : "priority_content",
+               "long_synopsis" : "Dozens of great games for you to play!",
+               "title" : "Doctor Who Games",
+               "type" : "related_link",
+               "updated" : "2012-12-19T14:18:55+0000"
+            }
+         ],
+         "is_hd_only" : "0",
+         "my_mediaselector_xml_url" : "http://www.bbc.co.uk/mediaselector/4/mtis/all/b01skh89",
+         "play_version_guidance_text" : ""
+      }
+   ],
+   "generator" : {
+      "version" : "0.1",
+      "type" : "generator",
+      "title" : "OMG Publishing Services",
+      "uri" : "http://publishing.omg.bbc.co.uk/"
+   },
+   "context" : {
+      "in_hd" : "0",
+      "domain" : "",
+      "is_signed" : "0",
+      "locale" : "en",
+      "is_dubbed_audio" : "0",
+      "bikini_states" : [
+         {
+            "area" : "global",
+            "state" : "0"
+         },
+         {
+            "area" : "db.activity",
+            "state" : "0"
+         },
+         {
+            "area" : "db.publishing",
+            "state" : "0"
+         },
+         {
+            "area" : "net.recommendations_supplier",
+            "state" : "0"
+         }
+      ],
+      "recipe" : ""
+   },
+   "updated" : "2013-05-31T10:47:32+0000",
+   "type" : "ion",
+   "id" : "tag:bbc.co.uk,2008:ps:fetcher:episodedetail:allow_unavailable:1:category_type:iplayer:clips:exclude:episode_id:b01skh8t:expose_search_categories:0:include_broadcasts:0:include_clip_counts:0:next_broadcasts:0:request_context:discoverable_only=0,media_set=emp:skip_credits:0",
+   "locale_str" : "en"
+}

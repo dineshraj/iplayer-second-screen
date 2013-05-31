@@ -4,25 +4,87 @@
         <title>BBC - Mobile iPlayer</title>
         <script data-main="js/app" src="js/lib/require.js"></script>
         <link rel="stylesheet" href="main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     </head>
 
     <body class="no-js">
-        <div class="header">
-           <h1 aria-hidden="true" class="icon iplayer"></h1>
-        </div>
-            <div class="player-control">
-                <div class="state-control">
-                    <span aria-hidden="true" class="icon rewind"></span>
-                    <span aria-hidden="true" class="icon play play-pause"></span>
-                    <span aria-hidden="true" class="icon forward"></span>
-                </div>
+        <div id="second-screen" class="second-screen">
 
-                <div class="volume-control">
-                    <span aria-hidden="true" class="icon mute"></span>
-                    <input class="slider" type="range" min="0" max="10" step="1" value="7" />
-                    <span aria-hidden="true" class="icon volume"></span>
+            <div class="header">
+                <h1 aria-hidden="true" class="icon iplayer"></h1>
+
+                <div class="player-control">
+                    <h2>Player Controls</h2>
+                    <div class="state-control">
+                        <span aria-hidden="true" class="icon rewind"></span>
+                        <span aria-hidden="true" class="icon play play-pause"></span>
+                        <span aria-hidden="true" class="icon forward"></span>
+                    </div>
+
+                    <div class="volume-control">
+                        <span aria-hidden="true" class="icon mute"></span>
+                        <input class="slider" type="range" min="0" max="10" step="1" value="7" />
+                        <span aria-hidden="true" class="icon volume"></span>
+                    </div>
                 </div>
             </div>
+
+            <div class="programme-information">
+                <h2>Current Programme Information</h2>
+
+                <h3>Programme Title</h3>
+                <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                <div class="metadata">
+                    <span>Experts demonstrate how to Bhangra dance and survive a lightning storm..</span>
+                    <span>123 mins</span>
+                    <span>Available until 1st Jan 2001</span>
+                </div>
+            </div>
+
+            <div class="more-like-this">
+                <h2>More Like This</h2>
+                <ul>
+                    <li>
+                        <h3>Programme Title</h3>
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                        <div class="metadata">
+                            <span>234 mins</span>
+                            <span>Available until 1st Jan 2001</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Programme Title</h3>
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                        <div class="metadata">
+                            <span>234 mins</span>
+                            <span>Available until 1st Jan 2001</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Programme Title</h3>
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                        <div class="metadata">
+                            <span>234 mins</span>
+                            <span>Available until 1st Jan 2001</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Programme Title</h3>
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                        <div class="metadata">
+                            <span>234 mins</span>
+                            <span>Available until 1st Jan 2001</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Programme Title</h3>
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
+                        <div class="metadata">
+                            <span>234 mins</span>
+                            <span>Available until 1st Jan 2001</span>
+                        </div>
+                    </li>
+            </div>
+        </div>
     </body>
 </html>
