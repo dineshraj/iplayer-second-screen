@@ -13,10 +13,14 @@ define(["jquery"], function ($) {
     // declare vars and connect to the server
     var $playButton = $('.state-control .play-pause'),
         $volumeDiv = $('.volume-control'),
+        $rewindButton = $('.state-control .rewind'),
+        $forwardButton = $('.state-control .forward'),
+        $muteButton = $('.mute'),
+        $unmuteButton = $('.volume'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
         data,
-        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click'; 
+        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
     /*
      * SUBSCRIBE TO WEBSOCKET EVENTS
@@ -55,10 +59,13 @@ define(["jquery"], function ($) {
                 priv._setVolume(obj.volume);
                 break;
             case 'play':
-                priv._setPlayPauseButton();
+                priv._setPlayPauseButton(true);
                 break;
-            case 'pause':
-                priv._setPlayPauseButton();
+            case 'pause': case 'ended': 
+                priv._setPlayPauseButton(false);
+                break;
+            case 'volume':
+                priv._setVolume(obj.data);
                 break;
             default:
                 console.log(obj);
@@ -110,6 +117,52 @@ define(["jquery"], function ($) {
         );
     });
 
+    $rewindButton.on(clickEvent, function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'rewind',
+                    author: 'secondScreen'
+                }
+            )
+        );
+    });
+
+    $forwardButton.on(clickEvent, function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'forward',
+                    author: 'secondScreen'
+                }
+            )
+        );
+    });
+
+    $muteButton.on(clickEvent, function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'mute',
+                    author: 'secondScreen',
+                    data: true
+                }
+            )
+        );
+    });
+
+    $unmuteButton.on(clickEvent, function () {
+        connection.send(
+            JSON.stringify(
+                {
+                    type: 'mute',
+                    author: 'secondScreen',
+                    data: false
+                }
+            )
+        );
+    });
+
     /*
      * PRIVATE METHODS FOR POPULATING INTERFACE
      */
@@ -132,10 +185,9 @@ define(["jquery"], function ($) {
         },
 
         _setPlayPauseButton: function (playing) {
-
-            if ($playButton.hasClass('pause') || (playing !== null && playing === false)) {
+            if ($playButton.hasClass('pause') && playing === false) {
                 $playButton.removeClass('pause').addClass('play');
-            } else if ($playButton.hasClass('play') || (playing !== null && playing === true)) {
+            } else if ($playButton.hasClass('play') && playing === true) {
                 $playButton.removeClass('play').addClass('pause');
             }
         },
