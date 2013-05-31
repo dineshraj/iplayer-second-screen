@@ -1,29 +1,52 @@
 body {
-    background-color: black;;
+    background-color: black;
+    color: white;
+    font-family: helvetica, arial;;
 }
 
 h1 {
     text-align: center;
 }
-    h1 span {
+    h1 span, h2 {
         display: none;
     }
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.second-screen {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 .state-control, .volume-control {
     margin: 0 auto;
     max-width: 230px
 }
 
+    input[type="range"]{
+       -webkit-appearance:none !important;
+       background-color: #dcdcdc;
+        height: 2px;
+        width: 100%;
+     }
+
+     input[type="range"]::-webkit-slider-thumb{
+       -webkit-appearance:none !important;
+       background-color: #f54997;
+       height: 30px;
+       width: 15px;
+     }
+
 .state-control span {
     display: inline-block;
     margin: 5px;
-    width: 43px;
-    height: 43px;
-    color: white;
+    width: 63px;
+    height: 63px;
     text-align: center;
-    padding: 10px;
-    background-color: #b6b6b6;
-    line-height: 48px;
     background-image: url('img/icons.svg');
     text-indent: -5000px;
 }
@@ -40,24 +63,37 @@ h1 {
         background-position: 113px -64px;
     }
 
-.volume-control .volume-value {
-    color: white;
-    background-color: black;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
+.programme-information {
+    float: left;
+    margin-bottom: 15px;
 }
 
-input[type="range"]{
-   -webkit-appearance:none !important;
-   background-color: #dcdcdc;
-    height: 2px;
-    width: 100%;
- }
+.more-like-this {
+    clear: both;
+}
 
- input[type="range"]::-webkit-slider-thumb{
-   -webkit-appearance:none !important;  
-   background-color: #f54997;
-   height: 30px;
-   width: 15px;
- }
+.more-like-this h2 {
+    display: block;
+}
+
+    .programme-information img, .more-like-this img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .programme-information .metadata, .more-like-this .metadata {
+        float: left;
+        width: 62%;
+    }
+        .programme-information span, .more-like-this span {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+.more-like-this ul li {
+    width: 100%;
+    float: left;
+}
+
+
+
