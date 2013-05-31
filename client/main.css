@@ -16,7 +16,7 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #444;
 }
-    h1 span, h2 {
+    h1 span {
         display: none;
     }
 
@@ -53,7 +53,8 @@ ul, ol {
 }
 
 .more-like-this h2 {
-    display: block;
+    float:left;
+    margin-bottom: 0;
 }
 
     .programme-information img, .more-like-this img {
@@ -63,12 +64,15 @@ ul, ol {
     }
     .programme-information .metadata, .more-like-this .metadata {
         float: left;
-        width: 62%;
     }
         .programme-information span, .more-like-this span {
             display: block;
             margin-bottom: 5px;
         }
+
+    .more-like-this .metadata {
+         width: 62%;
+    }
 
 .more-like-this ul li {
     width: 100%;
