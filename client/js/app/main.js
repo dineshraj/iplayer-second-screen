@@ -1,6 +1,6 @@
 define(["jquery"], function ($) {
 
-    var $content = $('#second-screen');
+    var $content = $('.player-control');
 
     // if user is running mozilla then use it's built-in WebSocket
     window.WebSocket = window.WebSocket || window.MozWebSocket;
@@ -133,10 +133,8 @@ define(["jquery"], function ($) {
         _setPlayPauseButton: function (playing) {
 
             if ($playButton.hasClass('pause') || (playing !== null && playing === false)) {
-                $playButton.text('play');
                 $playButton.removeClass('pause').addClass('play');
             } else if ($playButton.hasClass('play') || (playing !== null && playing === true)) {
-                $playButton.text('pause');
                 $playButton.removeClass('play').addClass('pause');
             }
         },
