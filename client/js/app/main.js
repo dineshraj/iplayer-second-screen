@@ -98,11 +98,11 @@ define(["jquery"], function ($) {
         );
     });
 
-    $playButton.click(function () {
+    $playButton.bind('touchstart', function () {
         connection.send(
             JSON.stringify(
                 {
-                    type: $(this).text(),
+                    type: $(this).hasClass('play') ? 'play' : 'pause',
                     author: 'secondScreen'
                 }
             )
