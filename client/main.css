@@ -1,11 +1,19 @@
-body {
+html, body {
     background-color: black;
-    color: white;
-    font-family: helvetica, arial;;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+body {
+    color: white;
+    font-family: helvetica, arial;
+}
+
+.header {
+    background-color: #000;
     text-align: center;
+    padding: 7px;
+    border-bottom: 1px solid #fff;
 }
     h1 span, h2 {
         display: none;
@@ -27,41 +35,16 @@ ul, ol {
     max-width: 230px
 }
 
-    input[type="range"]{
-       -webkit-appearance:none !important;
-       background-color: #dcdcdc;
-        height: 2px;
-        width: 100%;
-     }
-
-     input[type="range"]::-webkit-slider-thumb{
-       -webkit-appearance:none !important;
-       background-color: #f54997;
-       height: 30px;
-       width: 15px;
-     }
-
-.state-control span {
-    display: inline-block;
-    margin: 5px;
-    width: 63px;
-    height: 63px;
+.player-control {
+    padding: 7px;
+    margin: auto;
     text-align: center;
-    background-image: url('img/icons.svg');
-    text-indent: -5000px;
+    max-width: 320px;
 }
-    .state-control .play {
-        background-position: 176px 0;
-    }
-    .state-control .pause {
-        background-position: 176px -64px;
-    }
-    .state-control .rewind {
-        background-position: 113px 0;
-    }
-    .state-control .forward {
-        background-position: 113px -64px;
-    }
+
+.volume-control {
+    padding-top: 7px;
+}
 
 .programme-information {
     float: left;
@@ -95,5 +78,80 @@ ul, ol {
     float: left;
 }
 
+input[type="range"]{
+   -webkit-appearance:none !important;
+   background-color: #dcdcdc;
+    height: 2px;
+ }
 
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance:none !important;  
+    background-color: #f54997;
+    height: 30px;
+    width: 15px;
+}
 
+@font-face {
+   font-family: 'iplayer';
+    src:url('fonts/iplayer.eot');
+    src:url('fonts/iplayer.eot?#iefix') format('embedded-opentype'),
+        url('fonts/iplayer.woff') format('woff'),
+        url('fonts/iplayer.ttf') format('truetype'),
+        url('fonts/iplayer.svg#iplayer') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'iplayer';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #f54997;
+    margin: 0;
+    padding: 0;
+}
+
+.state-control .icon {
+    font-size: 2em;
+    padding: 12px;
+    background: #000;
+    line-height: 2;
+    color:  #fff;
+}
+
+.state-control .icon:hover {
+    background-color: #f54997;
+}
+
+.mute:before {
+    content: "\e000";
+}
+
+.volume:before {
+    content: "\e001";
+}
+
+.pause:before {
+    content: "\e002";
+}
+
+.play:before {
+    content: "\e003";
+}
+
+.rewind:before {
+    content: "\e005";
+}
+
+.forward:before {
+    content: "\e006";
+}
+
+.iplayer:before {
+    content: "\e004";
+}

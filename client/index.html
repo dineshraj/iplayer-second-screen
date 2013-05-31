@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>iPlayer Second Screen Experience</title>
+        <title>BBC - Mobile iPlayer</title>
         <script data-main="js/app" src="js/lib/require.js"></script>
         <link rel="stylesheet" href="main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -10,21 +10,22 @@
     <body class="no-js">
         <div id="second-screen" class="second-screen">
 
-            <h1>
-                <span>iPlayer Second Screen</span>
-                <img src="img/bbc_iplayer_logo.png" alt="iPlayer logo">
-            </h1>
+            <div class="header">
+               <h1 aria-hidden="true" class="icon iplayer"></h1>
+            </div>
 
             <div class="player-control">
                 <h2>Player Controls</h2>
                 <div class="state-control">
-                    <span class="rewind">rewind</span>
-                    <span class="play-pause">play</span>
-                    <span class="forward">forward</span>
+                    <span aria-hidden="true" class="icon rewind"></span>
+                    <span aria-hidden="true" class="icon play play-pause"></span>
+                    <span aria-hidden="true" class="icon forward"></span>
                 </div>
 
                 <div class="volume-control">
-                    <input class="volume" type ="range" min ="0" max="10" step ="1" value ="7">
+                    <span aria-hidden="true" class="icon mute"></span>
+                    <input class="slider" type="range" min="0" max="10" step="1" value="7" />
+                    <span aria-hidden="true" class="icon volume"></span>
                 </div>
             </div>
 
@@ -45,7 +46,7 @@
                 <ul>
                     <li>
                         <h3>Programme Title</h3>
-                        <img src="img/bbc_iplayer_logo.png" width="180" height="101">
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
                         <div class="metadata">
                             <span>234 mins</span>
                             <span>Available until 1st Jan 2001</span>
@@ -53,7 +54,7 @@
                     </li>
                     <li>
                         <h3>Programme Title</h3>
-                        <img src="img/bbc_iplayer_logo.png" width="180" height="101">
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
                         <div class="metadata">
                             <span>234 mins</span>
                             <span>Available until 1st Jan 2001</span>
@@ -61,7 +62,7 @@
                     </li>
                     <li>
                         <h3>Programme Title</h3>
-                        <img src="img/bbc_iplayer_logo.png" width="180" height="101">
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
                         <div class="metadata">
                             <span>234 mins</span>
                             <span>Available until 1st Jan 2001</span>
@@ -69,7 +70,7 @@
                     </li>
                     <li>
                         <h3>Programme Title</h3>
-                        <img src="img/bbc_iplayer_logo.png" width="180" height="101">
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
                         <div class="metadata">
                             <span>234 mins</span>
                             <span>Available until 1st Jan 2001</span>
@@ -77,7 +78,7 @@
                     </li>
                     <li>
                         <h3>Programme Title</h3>
-                        <img src="img/bbc_iplayer_logo.png" width="180" height="101">
+                        <img src="http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/b01r6kvr.jpg" width="180" height="101">
                         <div class="metadata">
                             <span>234 mins</span>
                             <span>Available until 1st Jan 2001</span>
