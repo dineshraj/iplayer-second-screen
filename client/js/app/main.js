@@ -15,7 +15,8 @@ define(["jquery"], function ($) {
         $volumeDiv = $('.volume-control'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
-        data;
+        data,
+        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click'; 
 
     /*
      * SUBSCRIBE TO WEBSOCKET EVENTS
@@ -98,11 +99,11 @@ define(["jquery"], function ($) {
         );
     });
 
-    $playButton.click(function () {
+    $playButton.on(clickEvent, function () {
         connection.send(
             JSON.stringify(
                 {
-                    type: $(this).text(),
+                    type: $(this).hasClass('play') ? 'play' : 'pause',
                     author: 'secondScreen'
                 }
             )
