@@ -19,8 +19,8 @@ define(["jquery"], function ($) {
         $unmuteButton = $('.volume'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
-        data,
-        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click',
+        data;
 
     /*
      * SUBSCRIBE TO WEBSOCKET EVENTS
@@ -61,7 +61,7 @@ define(["jquery"], function ($) {
             case 'play':
                 priv._setPlayPauseButton(true);
                 break;
-            case 'pause': case 'ended': 
+            case 'pause': case 'ended':
                 priv._setPlayPauseButton(false);
                 break;
             case 'volume':
@@ -169,15 +169,28 @@ define(["jquery"], function ($) {
     var priv = {
         _getSynopsisData: function (pid) {
           //  var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
-            var url = 'http://localhost:8000/fixtures/b01skh8t.json';
+            var url = 'http://localhost:8000/fixtures/' + pid + '.json';
 
             $.getJSON(url)
             .done(function (data) {
-                console.log(data);
+                priv._setSynopsisData((data.blocklist).shift());
             })
             .fail(function () {
                 console.log('Error retrieving data for', pid);
+                return;
             });
+        },
+
+        _setSynopsisData: function (data) {
+            var $metadata = $('.programme-information .metadata');
+
+            $('.programme-information .title').text(data.complete_title);
+
+            $metadata.children('img')
+                .attr('src', 'http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/' + data.id + '.jpg');
+            $metadata.children('.synopsis').text(data.short_synopsis);
+            $metadata.children('.duration').text(this._formatDuration(parseInt(data.duration, 10)));
+            $metadata.children('.availability').text(data.available_until);
         },
 
         _setPlayPauseButton: function (playing) {
@@ -188,8 +201,18 @@ define(["jquery"], function ($) {
             }
         },
 
-        _setVolume: function(volume) {
+        _setVolume: function (volume) {
             $volumeDiv.children('input').val((volume*10));
+        },
+
+        _formatDuration: function (seconds) {
+            var minutes;
+
+            if (seconds > 60) {
+                minutes =  Math.ceil(seconds/60);
+                return minutes + ((minutes == 1) ? ' minute' : ' minutes');
+            }
+            return seconds + ' seconds';
         }
     };
 
