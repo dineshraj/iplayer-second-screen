@@ -1,4 +1,4 @@
-define(["jquery"], function ($) {
+define(["jquery", "fastclick"], function ($, Fastclick) {
 
     // Webkit bug. Firefox rawks (for variable width fonts)
     var causeRepaintsOn = $(".icon, span, h2, h3");
@@ -16,6 +16,12 @@ define(["jquery"], function ($) {
         return;
     }
 
+    // add fastclick for touch-based devices
+    $(function() {
+        FastClick.attach(document.body);
+    });
+
+
     // declare vars and connect to the server
     var $playButton = $('.state-control .play-pause'),
         $volumeDiv = $('.volume-control'),
@@ -25,7 +31,7 @@ define(["jquery"], function ($) {
         $unmuteButton = $('.volume'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
-        clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click',
+    //    clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click',
         data;
 
     /*
@@ -102,7 +108,7 @@ define(["jquery"], function ($) {
         );
     });
 
-    $playButton.on(clickEvent, function () {
+    $playButton.on('click', function () {
         connection.send(
             JSON.stringify(
                 {
@@ -113,7 +119,7 @@ define(["jquery"], function ($) {
         );
     });
 
-    $rewindButton.on(clickEvent, function () {
+    $rewindButton.on('click', function () {
         connection.send(
             JSON.stringify(
                 {
@@ -124,7 +130,7 @@ define(["jquery"], function ($) {
         );
     });
 
-    $forwardButton.on(clickEvent, function () {
+    $forwardButton.on('click', function () {
         connection.send(
             JSON.stringify(
                 {
@@ -135,7 +141,7 @@ define(["jquery"], function ($) {
         );
     });
 
-    $muteButton.on(clickEvent, function () {
+    $muteButton.on('click', function () {
         connection.send(
             JSON.stringify(
                 {
@@ -147,7 +153,7 @@ define(["jquery"], function ($) {
         );
     });
 
-    $unmuteButton.on(clickEvent, function () {
+    $unmuteButton.on('click', function () {
         connection.send(
             JSON.stringify(
                 {
@@ -179,7 +185,7 @@ define(["jquery"], function ($) {
         _setSynopsisData: function (data) {
             $('.programme-information').html(
                 '<h2>Currenly watching..</h2>' +
-                '<h3>' + data.complete_title + '</h3a>' +
+                '<h3>' + data.complete_title + '</h3>' +
                 '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data.id + '.jpg" width="192" height="108">' +
                 '<div class="metadata">' +
                     '<span class="snyopsis">' + data.short_synopsis + '</span>' +
@@ -216,7 +222,7 @@ define(["jquery"], function ($) {
                 }
                 html += '</ul>';
 
-            $('.more-like-this-inner').html(html)
+            $('.more-like-this-inner').html(html);
             $('.more-like-this').fadeIn(function () {
                 width = $('.more-like-this ul li').outerWidth(true) * data.length;
                 $('.more-like-this ul').width(width*1.1);
@@ -224,7 +230,7 @@ define(["jquery"], function ($) {
 
             //set width of UL
 
-            $('.more-like-this li').on(clickEvent, function() {
+            $('.more-like-this li').on('click', function() {
                 connection.send(
                     JSON.stringify(
                         {

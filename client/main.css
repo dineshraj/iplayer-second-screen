@@ -25,17 +25,26 @@ ul, ol {
     padding: 0;
 }
 
+h2 {
+    color: #f54997;
+}
+
+h3 {
+    margin-top: 8px;
+}
+
 .header {
     background-color: #000;
     text-align: center;
     padding: 7px;
     padding-bottom: 20px;
     border-bottom: 1px solid #444;
+    padding-top: 2%;
 }
 
 .state-control, .volume-control {
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .player-control {
@@ -94,6 +103,7 @@ ul, ol {
     width: 98%;
     overflow-x: scroll;
     overflow-x: touch;
+    -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
 }
     .more-like-this img {
@@ -132,6 +142,8 @@ input[type="range"]{
     background-color: #dcdcdc;
     height: 2px;
     width: 27%;
+    position: relative;
+    top: -26px;
  }
 
 input[type="range"]::-webkit-slider-thumb{
@@ -169,16 +181,14 @@ input[type="range"]::-webkit-slider-thumb{
 
     .state-control .icon {
         font-size: 5vw;
-        padding: 3%;
+        padding: 2.5% 3%;
         background: #000;
         line-height: 2;
         color:  #fff;
     }
 
     .volume-control .icon {
-        font-size: 3vw;
-        position: relative;
-        top: 13px;
+        font-size: 5vw;
     }
 
 .play-pause {
@@ -219,5 +229,5 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 .iplayer {
-    font-size: 9.5vw;
+    font-size: 13.5vw;
 }
