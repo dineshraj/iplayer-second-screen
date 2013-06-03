@@ -1,3 +1,11 @@
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 html, body {
     background-color: #222;
     margin: 0;
@@ -16,9 +24,6 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid #444;
 }
-    h1 span {
-        display: none;
-    }
 
 ul, ol {
     list-style: none;
@@ -28,14 +33,16 @@ ul, ol {
 
 .state-control, .volume-control {
     margin: 0 auto;
-    max-width: 230px
+}
+
+.volume-control .icon {
+    font-size: 3vw;
 }
 
 .player-control {
     padding: 7px;
     margin: auto;
     text-align: center;
-    max-width: 320px;
 }
 
 .volume-control {
@@ -47,32 +54,31 @@ ul, ol {
 }
 
 .programme-information, .more-like-this {
-    clear: both;
-    max-width: 500px;
+    overflow: hidden;
     margin: 0 auto;
 }
 
 .more-like-this h2 {
-    float:left;
-    margin-bottom: 0;
+    display: block;
 }
 
     .programme-information img, .more-like-this img {
         float: left;
-        margin-right: 10px;
-        margin-bottom: 10px;
+        width: 50%;
+        display: block;
+        height: auto;
+
     }
     .programme-information .metadata, .more-like-this .metadata {
         float: left;
+        width: 45%;
+        padding-left: 5%;
+        padding-bottom: 5%;
     }
         .programme-information span, .more-like-this span {
             display: block;
             margin-bottom: 5px;
         }
-
-    .more-like-this .metadata {
-         width: 62%;
-    }
 
 .more-like-this ul li {
     width: 100%;
@@ -80,9 +86,10 @@ ul, ol {
 }
 
 input[type="range"]{
-   -webkit-appearance:none !important;
-   background-color: #dcdcdc;
+    -webkit-appearance:none !important;
+    background-color: #dcdcdc;
     height: 2px;
+    width: 27%;
  }
 
 input[type="range"]::-webkit-slider-thumb{
@@ -90,6 +97,7 @@ input[type="range"]::-webkit-slider-thumb{
     background-color: #f54997;
     height: 30px;
     width: 15px;
+    border: 0;
 }
 
 @font-face {
@@ -118,11 +126,16 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 .state-control .icon {
-    font-size: 2em;
-    padding: 12px;
+    font-size: 6vw;
+    padding: 3%;
     background: #000;
     line-height: 2;
     color:  #fff;
+}
+
+.play-pause {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .state-control .icon:hover {
@@ -155,4 +168,8 @@ input[type="range"]::-webkit-slider-thumb{
 
 .iplayer:before {
     content: "\e004";
+}
+
+.iplayer {
+    font-size: 11.5vw;
 }

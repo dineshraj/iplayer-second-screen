@@ -1,5 +1,11 @@
 define(["jquery"], function ($) {
 
+    // Webkit bug. Firefox rawks.
+    var causeRepaintsOn = $(".icon, span, h2, h3");
+    $(window).resize(function() {
+        causeRepaintsOn.css("z-index", 1);
+    });
+
     var $content = $('.player-control');
 
     // if user is running mozilla then use it's built-in WebSocket
@@ -168,12 +174,11 @@ define(["jquery"], function ($) {
      */
     var priv = {
         _getSynopsisData: function (pid) {
-          //  var url = 'http://www.bbc.co.uk/iplayer/ion/episodedetail/episode/' + pid + '/format/json';
-            var url = 'http://localhost:8000/fixtures/' + pid + '.json';
-
+            var url = 'http://94.76.249.84/ion.php?type=episodedetail&pid=' + pid + '&callback=?';
             $.getJSON(url)
             .done(function (data) {
                 priv._setSynopsisData((data.blocklist).shift());
+                priv._getMoreData(pid);
             })
             .fail(function () {
                 console.log('Error retrieving data for', pid);
@@ -182,15 +187,55 @@ define(["jquery"], function ($) {
         },
 
         _setSynopsisData: function (data) {
-            var $metadata = $('.programme-information .metadata');
+            $('.programme-information').html(
+                '<h2>' + data.complete_title + '</h2>' +
+                '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data.id + '.jpg" width="192" height="108">' +
+                '<div class="metadata">' +
+                    '<span class="snyopsis">' + data.short_synopsis + '</span>' +
+                    '<span class="duration">' + this._formatDuration(parseInt(data.duration, 10)) + '</span>' +
+                    '<span class="availability">' + data.available_until + '</span>' +
+                '</div>'
+            ).hide().fadeIn();
+        },
 
-            $('.programme-information .title').text(data.complete_title);
+        _getMoreData: function (pid) {
+            var url = 'http://94.76.249.84/ion.php?type=morelikethis&pid=' + pid + '&callback=?';
+            $.getJSON(url)
+            .done(function (data) {
+                priv._setMoreData((data.blocklist));
+            })
+            .fail(function () {
+                console.log('Error retrieving data for', pid);
+                return;
+            });
+        },
+        _setMoreData: function (data) {
+            var html = '<h2>More Like This</h2>' +
+                '<ul>';
+            for (var i = 0; i < data.length; i++) {
+                html += '<li data-src="' + data[i].id + '">' +
+                    '<h3>' + data[i].complete_title + '</h3>' +
+                    '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data[i].id + '.jpg" width="192" height="108">' +
+                    '<div class="metadata">' +
+                        '<span class="duration">' + this._formatDuration(parseInt(data[i].duration, 10)) + '</span>' +
+                        '<span class="availability">' + data[i].available_until + '</span>' +
+                    '</div>' +
+                '</li>';
+            }
+            html += '</ul>';
+            $('.more-like-this').html(html).hide().fadeIn();
 
-            $metadata.children('img')
-                .attr('src', 'http://ichef.bbci.co.uk/images/ic/176x99/legacy/episode/' + data.id + '.jpg');
-            $metadata.children('.synopsis').text(data.short_synopsis);
-            $metadata.children('.duration').text(this._formatDuration(parseInt(data.duration, 10)));
-            $metadata.children('.availability').text(data.available_until);
+            $('.more-like-this li').on(clickEvent, function() {
+                connection.send(
+                    JSON.stringify(
+                        {
+                            type: 'pid',
+                            author: 'secondScreen',
+                            data: $(this).attr('data-src')
+                        }
+                    )
+                );
+            });
         },
 
         _setPlayPauseButton: function (playing) {
