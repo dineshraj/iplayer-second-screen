@@ -35,6 +35,7 @@ ul, ol {
 
 .state-control, .volume-control {
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .player-control {
