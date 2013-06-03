@@ -1,6 +1,6 @@
 define(["jquery"], function ($) {
 
-    // Webkit bug. Firefox rawks.
+    // Webkit bug. Firefox rawks (for variable width fonts)
     var causeRepaintsOn = $(".icon, span, h2, h3");
     $(window).resize(function() {
         causeRepaintsOn.css("z-index", 1);
@@ -80,16 +80,6 @@ define(["jquery"], function ($) {
         }
 
 /*
- * @TODO
- * Synopsis stuff
- * - Getting metadata information from episodedetails feed in order to populate the synopsis
- * - format image and display it
- *
- * 'More Like This' stuff
- * - Get a list of 5(?) things that are similar to current PID (morelikethis feed)
- * - Format and store them in an array
- * - Populate the HTML with the data
- *
  * Twitter
  * - Make request to twitter API
  */
@@ -188,7 +178,8 @@ define(["jquery"], function ($) {
 
         _setSynopsisData: function (data) {
             $('.programme-information').html(
-                '<h2>' + data.complete_title + '</h2>' +
+                '<h2>Currenly watching..</h2>' +
+                '<h3>' + data.complete_title + '</h3a>' +
                 '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data.id + '.jpg" width="192" height="108">' +
                 '<div class="metadata">' +
                     '<span class="snyopsis">' + data.short_synopsis + '</span>' +
@@ -210,20 +201,28 @@ define(["jquery"], function ($) {
             });
         },
         _setMoreData: function (data) {
-            var html = '<h2>More Like This</h2>' +
+            var width,
+                html =
                 '<ul>';
-            for (var i = 0; i < data.length; i++) {
-                html += '<li data-src="' + data[i].id + '">' +
-                    '<h3>' + data[i].complete_title + '</h3>' +
-                    '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data[i].id + '.jpg" width="192" height="108">' +
-                    '<div class="metadata">' +
-                        '<span class="duration">' + this._formatDuration(parseInt(data[i].duration, 10)) + '</span>' +
-                        '<span class="availability">' + data[i].available_until + '</span>' +
-                    '</div>' +
-                '</li>';
-            }
-            html += '</ul>';
-            $('.more-like-this').html(html).hide().fadeIn();
+                for (var i = 0; i < data.length; i++) {
+                    html += '<li data-src="' + data[i].id + '">' +
+                            '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data[i].id + '.jpg" width="192" height="108">' +
+                            '<div class="metadata">' +
+                                '<h3>' + data[i].complete_title + '</h3>' +
+                                '<span class="duration">' + this._formatDuration(parseInt(data[i].duration, 10)) + '</span>' +
+                                '<span class="availability">' + data[i].available_until + '</span>' +
+                            '</div>' +
+                    '</li>';
+                }
+                html += '</ul>';
+
+            $('.more-like-this-inner').html(html)
+            $('.more-like-this').fadeIn(function () {
+                width = $('.more-like-this ul li').outerWidth(true) * data.length;
+                $('.more-like-this ul').width(width*1.1);
+            });
+
+            //set width of UL
 
             $('.more-like-this li').on(clickEvent, function() {
                 connection.send(
@@ -258,6 +257,10 @@ define(["jquery"], function ($) {
                 return minutes + ((minutes == 1) ? ' minute' : ' minutes');
             }
             return seconds + ' seconds';
+        },
+
+        _formatDate: function (date) {
+
         }
     };
 
