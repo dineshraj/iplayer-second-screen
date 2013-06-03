@@ -1,3 +1,5 @@
+/* HTML ELEMENTS */
+
 * {
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -17,6 +19,12 @@ body {
     font-family: helvetica, arial;
 }
 
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #000;
     text-align: center;
@@ -25,18 +33,8 @@ body {
     border-bottom: 1px solid #444;
 }
 
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .state-control, .volume-control {
     margin: 0 auto;
-}
-
-.volume-control .icon {
-    font-size: 3vw;
 }
 
 .player-control {
@@ -49,41 +47,84 @@ ul, ol {
     padding-top: 7px;
 }
 
-.programme-information {
-    margin-bottom: 15px;
+
+/* PROGRAMME INFO + MORE LIKE THIS SHARED */
+
+.programme-information, .more-like-this h2 {
+    margin: 2%;
 }
 
-.programme-information, .more-like-this {
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.more-like-this h2 {
+.programme-information img, .more-like-this img {
+    float: left;
     display: block;
+    height: auto;
 }
 
-    .programme-information img, .more-like-this img {
-        float: left;
-        width: 50%;
-        display: block;
-        height: auto;
+.programme-information span, .more-like-this span {
+    display: block;
+    margin-bottom: 5px;
+}
 
+/* PROGRAMME INFORMATION */
+
+.programme-information {
+    overflow: hidden;
+}
+
+    .programme-information img {
+        width: 50%;
     }
-    .programme-information .metadata, .more-like-this .metadata {
+
+    .programme-information .metadata {
         float: left;
         width: 45%;
         padding-left: 5%;
         padding-bottom: 5%;
     }
-        .programme-information span, .more-like-this span {
-            display: block;
-            margin-bottom: 5px;
-        }
 
-.more-like-this ul li {
-    width: 100%;
-    float: left;
+/* MORE LIKE THIS */
+
+.more-like-this {
+    overflow: hidden;
 }
+
+.more-like-this {
+    display: none;
+    width: 98%;
+    overflow-x: scroll;
+    overflow-x: touch;
+    overflow-y: hidden;
+}
+    .more-like-this img {
+        width: 100%;
+    }
+    .more-like-this ul {
+        float: left;
+    }
+        .more-like-this ul li {
+            float: left;
+            position: relative;
+            margin: 0.25%;
+        }
+            .more-like-this .metadata {
+                font-size: 0.8em;
+                position: absolute;
+                background-color: black;
+                opacity: 0.7;
+                width: 100%;
+                bottom: 0;
+            }
+                .more-like-this h3 {
+                    margin: 2% 0 0 2%;
+                    padding-right: 2%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+                .more-like-this span {
+                    margin-left: 2%;
+                }
+
 
 input[type="range"]{
     -webkit-appearance:none !important;
@@ -125,13 +166,19 @@ input[type="range"]::-webkit-slider-thumb{
     padding: 0;
 }
 
-.state-control .icon {
-    font-size: 6vw;
-    padding: 3%;
-    background: #000;
-    line-height: 2;
-    color:  #fff;
-}
+    .state-control .icon {
+        font-size: 5vw;
+        padding: 3%;
+        background: #000;
+        line-height: 2;
+        color:  #fff;
+    }
+
+    .volume-control .icon {
+        font-size: 3vw;
+        position: relative;
+        top: 13px;
+    }
 
 .play-pause {
     margin-left: 3%;
@@ -171,5 +218,5 @@ input[type="range"]::-webkit-slider-thumb{
 }
 
 .iplayer {
-    font-size: 11.5vw;
+    font-size: 9.5vw;
 }
