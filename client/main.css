@@ -96,19 +96,17 @@ h3 {
 
 .more-like-this {
     overflow: hidden;
+    display: none;
 }
 
-.more-like-this {
-    display: none;
-    width: 98%;
+.more-like-this-inner {
     overflow-x: scroll;
     overflow-x: touch;
     -webkit-overflow-scrolling: touch;
     overflow-y: hidden;
+    width: 96%;
+    margin: 0 auto;
 }
-    .more-like-this img {
-        width: 100%;
-    }
     .more-like-this ul {
         float: left;
     }
@@ -117,6 +115,9 @@ h3 {
             position: relative;
             margin: 0.25%;
         }
+            .more-like-this ul li:first-child {
+                margin-left: 0;
+            }
             .more-like-this .metadata {
                 font-size: 0.8em;
                 position: absolute;
@@ -143,7 +144,7 @@ input[type="range"]{
     height: 2px;
     width: 27%;
     position: relative;
-    top: -26px;
+    top: -18px;
  }
 
 input[type="range"]::-webkit-slider-thumb{
@@ -231,3 +232,5 @@ input[type="range"]::-webkit-slider-thumb{
 .iplayer {
     font-size: 13.5vw;
 }
+
+@media-

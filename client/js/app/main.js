@@ -31,7 +31,6 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
         $unmuteButton = $('.volume'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
         author = 'secondScreen',
-    //    clickEvent = 'ontouchstart' in window ? 'touchstart' : 'click',
         data;
 
     /*
@@ -186,11 +185,11 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
             $('.programme-information').html(
                 '<h2>Currenly watching..</h2>' +
                 '<h3>' + data.complete_title + '</h3>' +
-                '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data.id + '.jpg" width="192" height="108">' +
+                '<img src="http://ichef.bbci.co.uk/images/ic/1248x702/legacy/episode/' + data.id + '.jpg">' +
                 '<div class="metadata">' +
                     '<span class="snyopsis">' + data.short_synopsis + '</span>' +
-                    '<span class="duration">' + this._formatDuration(parseInt(data.duration, 10)) + '</span>' +
-                    '<span class="availability">' + data.available_until + '</span>' +
+                    '<span class="duration">Duration: ' + this._formatDuration(parseInt(data.duration, 10)) + '</span>' +
+                    '<span class="availability">Available until ' + this._formatDate(data.available_until) + '</span>' +
                 '</div>'
             ).hide().fadeIn();
         },
@@ -212,11 +211,11 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
                 '<ul>';
                 for (var i = 0; i < data.length; i++) {
                     html += '<li data-src="' + data[i].id + '">' +
-                            '<img src="http://ichef.bbci.co.uk/images/ic/384x216/legacy/episode/' + data[i].id + '.jpg" width="192" height="108">' +
+                            '<img src="http://ichef.bbci.co.uk/images/ic/768x432/legacy/episode/' + data[i].id + '.jpg" width="384" height="216">' +
                             '<div class="metadata">' +
                                 '<h3>' + data[i].complete_title + '</h3>' +
-                                '<span class="duration">' + this._formatDuration(parseInt(data[i].duration, 10)) + '</span>' +
-                                '<span class="availability">' + data[i].available_until + '</span>' +
+                                '<span class="duration">Duration: ' + this._formatDuration(parseInt(data[i].duration, 10)) + '</span>' +
+                                '<span class="availability">Available until ' + this._formatDate(data[i].available_until) + '</span>' +
                             '</div>' +
                     '</li>';
                 }
@@ -266,7 +265,10 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
         },
 
         _formatDate: function (date) {
-
+            //var d = new Date(date);
+            var datestr = date.split(/[-T.]/);
+            var safdat = new Date( datestr.slice(0,3).join('/')+' '+datestr[3] );
+            return safdat.toDateString();
         }
     };
 
