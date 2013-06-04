@@ -1,5 +1,6 @@
-define(["jquery", "fastclick"], function ($, Fastclick) {
-
+/*global define */
+define(["jquery", "fastclick"], function ($, FastClick) {
+    'use strict';
     // Webkit bug. Firefox rawks (for variable width fonts)
     var causeRepaintsOn = $(".icon, span, h2, h3");
     $(window).resize(function() {
@@ -30,8 +31,7 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
         $muteButton = $('.mute'),
         $unmuteButton = $('.volume'),
         connection = new WebSocket('ws://94.76.249.84:1337'),
-        author = 'secondScreen',
-        data;
+        author = 'secondScreen';
 
     /*
      * SUBSCRIBE TO WEBSOCKET EVENTS
@@ -48,7 +48,7 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
         );
     };
 
-    connection.onerror = function (error) {
+    connection.onerror = function () {
         $content.html($('<p>', { text: 'Sorry the server has gone...I guess it didn\'t like you' } ));
     };
 
@@ -259,7 +259,7 @@ define(["jquery", "fastclick"], function ($, Fastclick) {
 
             if (seconds > 60) {
                 minutes =  Math.ceil(seconds/60);
-                return minutes + ((minutes == 1) ? ' minute' : ' minutes');
+                return minutes + ((minutes === 1) ? ' minute' : ' minutes');
             }
             return seconds + ' seconds';
         },
