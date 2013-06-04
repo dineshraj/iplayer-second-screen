@@ -233,4 +233,16 @@ input[type="range"]::-webkit-slider-thumb{
     font-size: 13.5vw;
 }
 
-@media-
+@media only screen and (max-width: 320px) {
+    .volume-control .icon, .state-control .icon {
+        font-size: 10vw;
+    }
+    .iplayer {
+        font-size: 17vw;
+    }
+
+    input[type="range"] {
+        width: 55%;
+        top: -15px;
+    }
+}
