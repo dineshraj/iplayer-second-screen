@@ -1,0 +1,8 @@
+{
+    "name" : "iplayer-second-screen",
+    "version" : "0.0.1",
+    "dependencies" : {
+        "node-statsd" : "0.0.7",
+        "websockets" : "0.2.0"
+    }
+}
