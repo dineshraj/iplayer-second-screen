@@ -17,8 +17,6 @@ var http = require('http');
 // list of currently connected clients (users)
 var clients = [ ];
 
-var pid = false;
-
 /**
  * Helper function for escaping input strings
  */

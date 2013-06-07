@@ -1,5 +1,5 @@
-/*global define */
-define(["jquery", "fastclick"], function ($, FastClick) {
+/*global define*/
+define(["jquery", "fastclick"], function ($) {
     'use strict';
     // Webkit bug. Firefox rawks (for variable width fonts)
     var causeRepaintsOn = $(".icon, span, h2, h3");
@@ -21,7 +21,6 @@ define(["jquery", "fastclick"], function ($, FastClick) {
     $(function() {
         FastClick.attach(document.body);
     });
-
 
     // declare vars and connect to the server
     var $playButton = $('.state-control .play-pause'),
@@ -168,6 +167,7 @@ define(["jquery", "fastclick"], function ($, FastClick) {
      * PRIVATE METHODS FOR POPULATING INTERFACE
      */
     var priv = {
+
         _getSynopsisData: function (pid) {
             var url = 'http://94.76.249.84/ion.php?type=episodedetail&pid=' + pid + '&callback=?';
             $.getJSON(url)
@@ -223,11 +223,10 @@ define(["jquery", "fastclick"], function ($, FastClick) {
 
             $('.more-like-this-inner').html(html);
             $('.more-like-this').fadeIn(function () {
+                //set width of the 'more like this' container
                 width = $('.more-like-this ul li').outerWidth(true) * data.length;
                 $('.more-like-this ul').width(width*1.1);
             });
-
-            //set width of UL
 
             $('.more-like-this li').on('click', function() {
                 connection.send(
@@ -265,11 +264,14 @@ define(["jquery", "fastclick"], function ($, FastClick) {
         },
 
         _formatDate: function (date) {
-            //var d = new Date(date);
-            var datestr = date.split(/[-T.]/);
-            var safdat = new Date( datestr.slice(0,3).join('/')+' '+datestr[3] );
+            var datestr = date.split(/[-T.]/),
+                safdat = new Date(datestr.slice(0, 3).join('/') + ' ' + datestr[3]);
+
             return safdat.toDateString();
         }
+
     };
+
+return priv;
 
 });
