@@ -63,6 +63,14 @@ wsServer.on('request', function(request) {
 
               console.log(message.utf8Data);
 
+              var StatsD = require('node-statsd').StatsD,
+                  client = new StatsD({
+                    host: "198.199.67.216",
+                    port: 8125,
+                    prefix: "bbc.tviplayer."
+                  });
+
+              client.increment('second-screen.' + JSON.parse(message.utf8Data).type +'.clicks');
 
                 for (var i = 0; i < clients.length; i++) {
                     clients[i].sendUTF(message.utf8Data);
